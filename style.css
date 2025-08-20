@@ -1,0 +1,71 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #F9F6F3;
+      color: #333;
+    }
+
+    header {
+      background-color: #A6B28B;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+      color: black;
+      font-family:bold;
+    }
+    .foto {
+      text-align: center;
+      background: #F9F6F3;
+      padding: 25px;
+    }
+    .foto img {
+      max-width: 100%;
+      border-radius: 50px;
+    }
+
+    section {
+      /* max-width: 800px; */
+      margin: 20px auto;
+      padding: 10px;
+      background: #F9F6F3;
+      border-radius: 8px;
+      margin-top: px;
+      box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+    }
+    
+    h2 {
+      text-align: center;
+      color: #000000;
+      font-family: bold;
+      margin-bottom: 15px;
+    }
+    ul {
+      margin: 10px 0 20px 30px;
+    }
+
+    .gambar-kecil {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .gambar-kecil img {
+      width: 250px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    footer {
+      text-align: center;
+      background: #A6B28B;
+      color: rgb(0, 0, 0);
+      padding: 10px;
+      margin-top: 20px;
+    }
